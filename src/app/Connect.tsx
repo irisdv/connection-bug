@@ -33,7 +33,7 @@ const Connect: FunctionComponent = () => {
       return;
     }
     await connectAsync({ connector });
-    localStorage.setItem("starkurabu-connectedWallet", connector.id);
+    localStorage.setItem("TEST-connectedWallet", connector.id);
   };
 
   const disconnectWallet = async () => {
